@@ -39,19 +39,19 @@ class FatPersonBuilder extends Builder{
 	private BuildPattern product = new BuildPattern();
 	
 	public void buildHead(){
-		product.add("胖人头");
+		product.add("fat head");
 	}
 	
 	public void buildBody(){
-		product.add("胖人身体");
+		product.add("fat body");
 	}
 	
 	public void buildHand(){
-		product.add("胖人手");
+		product.add("fat hand");
 	}
 	
 	public void buildFeet(){
-		product.add("胖人脚");
+		product.add("fat feet");
 	}
 	
 	
@@ -67,19 +67,19 @@ class ThinPersonBuilder extends Builder{
 	private BuildPattern product;
 	
 	public void buildHead(){
-		product.add("瘦人头");
+		product.add("thin head");
 	}
 	
 	public void buildBody(){
-		product.add("瘦人身体");
+		product.add("thin body");
 	}
 	
 	public void buildHand(){
-		product.add("瘦人手");
+		product.add("thin hand");
 	}
 	
 	public void buildFeet(){
-		product.add("瘦人脚");
+		product.add("this feet");
 	}
 	
 	

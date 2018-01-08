@@ -23,13 +23,13 @@ class ClassAdapter extends Volt220 implements FiveVolt{
 }
 
 
-class Test{
-	public static void main(String args[]){
-		
-		ClassAdapter ca = new ClassAdapter();
-		
-		System.out.println(ca.getVolt5());
-		System.out.println(ca.getVolt220());
-		
-	}
-}
+//class Test{
+//	public static void main(String args[]){
+//		
+//		ClassAdapter ca = new ClassAdapter();
+//		
+//		System.out.println(ca.getVolt5());
+//		System.out.println(ca.getVolt220());
+//		
+//	}
+//}
